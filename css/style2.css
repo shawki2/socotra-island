@@ -3,21 +3,28 @@
 @media screen and (min-width: 900px) {
 
 body {  
-  margin-top:60px;
+  margin-top:10px;
 }
 }
 .center{  
-  text-align: center;
+ text-align: center;
   color: black;
 }
 .aden0{
- /* display: flex;
-  flex-direction: row;
+ display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  align-content: flex-start;*/
+  align-content: center;
   background-color: #d1d5d1;
-  margin-top:60px;
-  padding: 5px;
+  width: 1000px;
+  height: 1000px;
+  /*border: solid;*/
+  float:left;
+  /*margin-top:60px;
+  padding: 5px;*/
+}
+h2{
+  color: black;
 }
 p{
   font-family: Lobster;
@@ -28,7 +35,8 @@ p{
   color:black;
 }
   .smaller-image {
-    width: 1070px;
+    width: 950px;
+    height: 280px;
   }
 figcaption {
     margin: 5px 0 0 0;
@@ -58,4 +66,25 @@ figure {
 }
 .listp{
   color: black;
+}
+.imagescolume{
+  display: flex;
+}
+.figureflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#top{
+  align-items: center;
+}
+.foot{
+  border-top: 1px solid rgb(180, 164, 20);
+  /*height: 35px;*/
+}
+.figurecolum{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
